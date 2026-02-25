@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
     features = "src/test/resources/features",
     glue = {"stepdefinition","hooks"} ,
-    plugin= {"html:target\\index.html","json:target\\index1.json"},
+    plugin= {"html:target/index.html","json:target/index1.json"},
     monochrome = true,
     		// dryRun=true,
     tags="@scenario1 or @map"
