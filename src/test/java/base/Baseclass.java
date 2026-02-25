@@ -38,7 +38,7 @@ public class Baseclass {
 	public static void Launch(String url)
 	{
 		driver.get(url);
-		WebElement create=driver.findElement(By.xpath("//a[text()='Create new account']"));
+		WebElement create=driver.findElement(By.xpath("//a[contains(text(),'Create new account')]"));
 		create.click();
 
 	}
