@@ -1,7 +1,7 @@
 
 Feature: login info
 Background: launching facebook page
-Given launch facebook page "https://www.facebook.com/"
+Given launch facebook page "https://www.facebook.com/reg/?entry_point=aymh&next="
 @map
 Scenario: facebook login using map
 When Logging into the facebook by one map
